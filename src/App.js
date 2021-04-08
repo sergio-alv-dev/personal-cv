@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+import About from './components/About';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Certificates from './components/Certificates';
+
+import { Curses } from './components/Curses';
+import { sergio } from './person';
+import { Portfolio } from './components/Portfolio';
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+    <header>
+        <div className='wrapper'>
+          <div className='sidebar'>
+            <About
+              avatar={sergio.avatar}
+              name={sergio.name}
+              profession={sergio.profession}
+              bio={sergio.bio}
+              address={sergio.address}
+              social={sergio.social} 
+            />
+
+          </div>
+
+          <div className='content-wrapper'>
+
+              <div className='content'>
+                <Experience experience={ sergio.experience } />
+                <Education education={ sergio.education } />
+                <Certificates certificates={ sergio.certificates } />
+                <Curses courses = { sergio.courses }/>
+                
+                <Portfolio portfolio={ sergio.portfolio } />
+
+              </div>
+          </div>
+
+        </div>
+      </header>
+  )
+}
