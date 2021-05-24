@@ -4,6 +4,11 @@ import Social from './Social';
 
 
 const About = ({avatar, name, profession, bio, address, social}) => {
+
+  const onClick = () => {
+
+  }
+  
   return (
     <div className='bio'>
       <div className='avatar'>
@@ -30,8 +35,15 @@ const About = ({avatar, name, profession, bio, address, social}) => {
       <Social social={social} />
       
       <br/>
-      <a href="../assets/SergioAlvarezCV-2021.pdf" download="SergioAlvarezCV-2021.pdf">Descarga Mi CV aquí</a>
-      
+      {/* <a 
+        href="../SergioAlvarezCV-2021.pdf" 
+        download="SergioAlvarezCV-2021.pdf"
+      >
+        <button 
+          className="btn"
+          >
+            <i className="fa fa-download"></i> Descarga mi CV</button>
+        </a> */}
       
     </div>
 
