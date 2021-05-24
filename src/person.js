@@ -6,7 +6,7 @@ export const sergio = {
     name: 'Sergio Andrés Alvarez Pedreros',
     profession: 'Ingeniero Civil Informático',
     // bio: '❤ Web Developer - .',
-    bio: 'Entusiasta de la tecnología y los perritos, busco abrirme camino en el mundo del desarrollo web.',
+    bio: 'Entusiasta de la tecnología y los perritos.',
 
     address: 'Viña del Mar, Chile.',
     social: [
@@ -55,6 +55,13 @@ export const sergio = {
         link: 'https://www.scrumstudy.com/certification/certification-registry',
         description: 'Certificación realizada para obtener una comprensión básica de cómo funciona el marco de Scrum en la entrega de proyectos exitosos.'},
       // 
+      { 
+        name: 'GitLab Certified Associate',
+        institution: 'GitLab',
+        date: 'Mayo 14, 2021',
+        link: 'https://badgr.com/public/assertions/z4WXu3-uS7uOFGcnfCBcoA',
+        description: 'Las personas que obtienen la certificación GitLab Certified Associate pueden explicar qué es GitLab y por qué los equipos lo usan, realizar comandos básicos de Git para ramificación, fusión y trabajo remoto, y aplicar conceptos y habilidades fundamentales usando GitLab dentro del ciclo de vida de DevOps',
+      },
       {
         name: 'React: De cero a experto ( Hooks y MERN )',
         institution: 'Udemy', 
@@ -100,7 +107,7 @@ export const sergio = {
         institution:  'Udemy',
         description: 'Curso realizado para aprender el pipeline de integración continua en Docker'},
       {
-        name: 'Angular: De cero a experto (Legacy)', 
+        name: 'Angular: De cero a experto (2021)', 
         duration: '35.5 hrs', 
         institution:  'Udemy',
         description: '' 
@@ -109,31 +116,31 @@ export const sergio = {
         name: 'Redux en Angular con NGRX',
         duration: '12 hrs', 
         institution:  'Udemy', 
-        description: 'Manejo del STORE, EFFECTS, ACTIONS, DEVTOOLS, lazyload, login y buenas prácticas en Angular'},
+        // description: 'Manejo del STORE, EFFECTS, ACTIONS, DEVTOOLS, lazyload, login y buenas prácticas en Angular'
+      },
       // 
-
     ],
     portfolio: [
+      // {
+      //   name: 'Aplicación de chat',
+      //   url: '',
+      //   description: 'Esta aplicación permite la comunicación entre personas (actualmente de todo el servidor) desde cualquier parte del mundo. Utiliza SOCKETS para su comunicación'
+      // },  
+      // {
+      //   name: 'Aplicación de Apuntes',
+      //   url: 'https://journalapp-react.herokuapp.com/auth/login',
+      //   description: 'Esta aplicación permite guardar cualquier tipo de entrada de texto. Realizado bajo el concepto de REDUX y FIRESTORE en FIREBASE. Se utilizó jest para las pruebas de componentes.'
+      // },
       {
-        name: 'Aplicación de chat',
-        url: '',
-        description: 'Esta aplicación permite la comunicación entre personas (actualmente de todo el servidor) desde cualquier parte del mundo. Utiliza SOCKETS para su comunicación'
-      },  
-    {
-      name: 'Aplicación de Apuntes',
-      url: 'https://journalapp-react.herokuapp.com/auth/login',
-      description: 'Esta aplicación permite guardar cualquier tipo de entrada de texto. Realizado bajo el concepto de REDUX y FIRESTORE en FIREBASE. Se utilizó jest para las pruebas de componentes.'
-    },
-    {
-      name: 'Aplicación de tickets',
-      url: ' https://ticketapp-sockets-react.herokuapp.com/ ',
-      description: 'Esta aplicación web permite la solicitud de tickets para su posterior atención en distintos escritorios. Utiliza SOCKETS para su comunicación.'
-    },
-    {
-      name: 'Aplicación de Calendario',
-      url: 'https://mern-calendar-kll.herokuapp.com/',
-      description: 'Esta aplicación permite almacenar eventos en un calendario, realizado en stack MERN. Se utilizó jest para las pruebas de componentes.'
-    },
+        name: 'Aplicación de tickets',
+        url: ' https://ticketapp-sockets-react.herokuapp.com/ ',
+        description: 'Esta aplicación web permite la solicitud de tickets para su posterior atención en distintos escritorios. Utiliza SOCKETS para su comunicación.'
+      },
+      {
+        name: 'Aplicación de Calendario',
+        url: 'https://mern-calendar-kll.herokuapp.com/',
+        description: 'Esta aplicación permite almacenar eventos en un calendario, realizado en stack MERN. Se utilizó jest para las pruebas de componentes.'
+      },
 
     ],
     skills: [
