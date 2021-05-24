@@ -1,14 +1,18 @@
 import me from './assets/matri-2.jpg'
+// const cvUrl = 'https://github.com/sergio-alv-dev/personal-cv/blob/main/SergioAlvarezCV-2021.pdf'
+// const cvUrl = 'https://4html.net/source/SergioAlvarezCV-2021.pdf#viewer.action=download'
+// const cvUrl = 'https://4html.net/source/SergioAlvarezCV-2021.pdf'
+const cvUrl = 'https://nbviewer.jupyter.org/github/sergio-alv-dev/personal-cv/blob/main/SergioAlvarezCV.pdf'
 
 
 export const sergio = {
     avatar: me,
     name: 'Sergio Andrés Alvarez Pedreros',
     profession: 'Ingeniero Civil Informático',
-    // bio: '❤ Web Developer - .',
     bio: 'Entusiasta de la tecnología y los perritos.',
-
     address: 'Viña del Mar, Chile.',
+    // cv: `https://docs.google.com/viewer?url=${cvUrl}`,
+    cv: `${cvUrl}`,
     social: [
       // {name: 'facebook', url: 'https://facebook.com/chascondeapeso/'},
       // {name: 'twitter', url: 'https://twitter.com/'},

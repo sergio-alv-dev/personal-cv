@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Social from './Social';
 
 
-const About = ({avatar, name, profession, bio, address, social}) => {
+const About = ({avatar, name, profession, bio, address, social, cv}) => {
 
-  const onClick = () => {
+  // const onClick = () => {
 
-  }
+  // }
   
   return (
     <div className='bio'>
@@ -35,15 +35,15 @@ const About = ({avatar, name, profession, bio, address, social}) => {
       <Social social={social} />
       
       <br/>
-      {/* <a 
-        href="../SergioAlvarezCV-2021.pdf" 
-        download="SergioAlvarezCV-2021.pdf"
+      <a 
+        href={ cv }
+        download="SergioAlvarez-CV.pdf"
       >
-        <button 
-          className="btn"
-          >
-            <i className="fa fa-download"></i> Descarga mi CV</button>
-        </a> */}
+        <button className="btn">
+            <i className="fa fa-download"></i>
+            Descarga mi CV
+        </button>
+        </a>
       
     </div>
 

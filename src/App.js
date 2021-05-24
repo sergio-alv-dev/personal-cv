@@ -4,10 +4,12 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Certificates from './components/Certificates';
-
 import { Curses } from './components/Curses';
-import { sergio } from './person';
 import { Portfolio } from './components/Portfolio';
+
+import { sergio } from './person';
+
+const { avatar, name, profession, bio, address, social, experience, education, certificates, courses, portfolio, cv } = sergio;
 
 export const App = () => {
   return (
@@ -16,12 +18,13 @@ export const App = () => {
         <div className='wrapper'>
           <div className='sidebar'>
             <About
-              avatar={sergio.avatar}
-              name={sergio.name}
-              profession={sergio.profession}
-              bio={sergio.bio}
-              address={sergio.address}
-              social={sergio.social} 
+              avatar={avatar}
+              name={name}
+              profession={profession}
+              bio={bio}
+              address={address}
+              social={social} 
+              cv= {cv}
             />
 
           </div>
@@ -29,12 +32,12 @@ export const App = () => {
           <div className='content-wrapper'>
 
               <div className='content'>
-                <Experience experience={ sergio.experience } />
-                <Education education={ sergio.education } />
-                <Certificates certificates={ sergio.certificates } />
-                <Curses courses = { sergio.courses }/>
+                <Experience experience={ experience } />
+                <Education education={ education } />
+                <Certificates certificates={ certificates } />
+                <Curses courses = { courses }/>
                 
-                <Portfolio portfolio={ sergio.portfolio } />
+                <Portfolio portfolio={ portfolio } />
 
               </div>
           </div>
