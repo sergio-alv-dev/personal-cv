@@ -1,8 +1,9 @@
 import me from './assets/matri-2.jpg'
-// const cvUrl = 'https://github.com/sergio-alv-dev/personal-cv/blob/main/SergioAlvarezCV-2021.pdf'
-// const cvUrl = 'https://4html.net/source/SergioAlvarezCV-2021.pdf#viewer.action=download'
-// const cvUrl = 'https://4html.net/source/SergioAlvarezCV-2021.pdf'
-const cvUrl = 'https://nbviewer.jupyter.org/github/sergio-alv-dev/personal-cv/blob/main/SergioAlvarezCV.pdf'
+// const cvUrl = 'https://github.com/sergio-alv-dev/personal-cv/blob/main/SergioAlvarezCV.pdf'
+// const cvUrl = 'https://4html.net/source/SergioAlvarezCV.pdf#viewer.action=download'
+// const cvUrl = 'https://4html.net/source/SergioAlvarezCV.pdf'
+// const cvUrl = 'https://nbviewer.jupyter.org/github/sergio-alv-dev/personal-cv/blob/main/SergioAlvarezCV.pdf'
+const cvUrl = 'https://nbviewer.jupyter.org/github/sergio-alv-dev/personal-cv/blob/f0671f3f352768467ea2f6a412501ad9d4e5a2f2/SergioAlvarezCV.pdf'
 
 
 export const sergio = {

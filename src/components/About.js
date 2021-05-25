@@ -37,11 +37,11 @@ const About = ({avatar, name, profession, bio, address, social, cv}) => {
       <br/>
       <a 
         href={ cv }
-        download="SergioAlvarez-CV.pdf"
+        target="_blank"
+        // download="SergioAlvarez-CV.pdf"
       >
         <button className="btn">
-            <i className="fa fa-download"></i>
-            Descarga mi CV
+            Link a mi CV
         </button>
         </a>
       
